@@ -1,4 +1,5 @@
 using HillLabTest.Models;
+using HillLabTestEntities;
 using Moq;
 using System;
 using System.Collections.Generic;

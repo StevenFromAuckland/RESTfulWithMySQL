@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
 using HillLabTest.Models;
+using HillLabTestEntities;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 

@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using HillLabTest.Models;
+using HillLabTestEntities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,6 +15,7 @@ namespace HillLabTest
             CreateMap<Category, CategoryDTO>();
             CreateMap<CategoryDTO, Category>();
             CreateMap<Product, ProductDTO>();
+            CreateMap<ProductDTO, Product>();
         }
     }
 }

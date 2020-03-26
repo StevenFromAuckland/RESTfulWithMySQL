@@ -12,6 +12,8 @@ COPY . .
  
 RUN dotnet test ./XUnitTest/XUnitTest.csproj
  
+RUN dotnet publish ./HillLabTestEntities/HillLabTestEntities.csproj -o /publish/
+ 
 RUN dotnet publish ./HillLabTest/HillLabTest.csproj -o /publish/
  
 FROM mcr.microsoft.com/dotnet/core/aspnet:3.1

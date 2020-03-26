@@ -15,7 +15,7 @@ services:
    hilllabtestapp:
      depends_on:
        - db
-     image: huangsoft/hill_lab_test:build
+     image: huangsoft/hill_lab_test:runtime
      build:
        context: .
      ports:

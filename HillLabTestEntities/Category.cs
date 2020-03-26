@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace HillLabTest.Models
+namespace HillLabTestEntities
 {
 
     //insert into productdb.category values(1, 'Food'), (2, 'Beverage'), (3, 'Vegetable');

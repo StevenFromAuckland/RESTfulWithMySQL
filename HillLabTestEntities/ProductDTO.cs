@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace HillLabTest.Models
+namespace HillLabTestEntities
 {
   
     public class ProductDTO
