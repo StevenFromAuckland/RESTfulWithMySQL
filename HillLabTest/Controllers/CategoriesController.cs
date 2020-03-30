@@ -113,9 +113,9 @@ namespace HillLabTest.Controllers
         {
             try
             {
-                var productsInCategory = await _productContextWrapper.Product.GetProductsInCategory(id);
-                if(productsInCategory != null && productsInCategory.Count() > 0)
-                    return BadRequest("Cannot delete the category. There are products under the category");
+                //var productsInCategory = await _productContextWrapper.Product.GetProductsInCategory(id);
+                //if(productsInCategory != null && productsInCategory.Count() > 0)
+                //    return BadRequest("Cannot delete the category. There are products under the category");
 
                 var category = await _productContextWrapper.Category.GetCategoryById(id);
                 if (category == null)
