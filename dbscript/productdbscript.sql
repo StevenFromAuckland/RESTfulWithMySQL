@@ -20,7 +20,7 @@ CREATE TABLE IF NOT EXISTS `productdb`.`product` (
   `CategoryId` INT NOT NULL,
   PRIMARY KEY (`ProductId`),
   KEY `fk_product_category_idx` (`CategoryId`),
-  CONSTRAINT `fk_product_category` FOREIGN KEY (`CategoryId`) REFERENCES `category` (`CategoryId`) ON UPDATE CASCADE
+  CONSTRAINT `fk_product_category` FOREIGN KEY (`CategoryId`) REFERENCES `category` (`CategoryId`) ON UPDATE CASCADE ON DELETE CASCADE
 ) ENGINE = InnoDB DEFAULT CHARSET=utf8;
 
 

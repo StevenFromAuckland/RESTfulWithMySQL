@@ -16,8 +16,10 @@ namespace HillLabTestEntities
     public class Category
     {
         [Key]
+        [Display(Name ="ID")]
         public int CategoryId { get; set; }
 
+        [Display(Name = "Category Name")]
         [Required(ErrorMessage = "Name is required")]
         [StringLength(255, ErrorMessage = "Name can't be longer than 255 characters")]
         public string CategoryName { get; set; }
